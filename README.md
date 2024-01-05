@@ -11,3 +11,6 @@ This is my first ever Go project so I imagine there is a few things I can clean 
 - Pull down the repo 
 - run `go run main.go`
 
+## Creating new components
+you will need to run `./cmd/templ generate` to create the corrosponding go files 
+
