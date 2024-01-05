@@ -1,0 +1,21 @@
+package templates
+
+
+templ TextForm() {
+	@Layout() {
+        <div>
+            <form hx-post="/submit-form" hx-target="#result" hx-swap="outerHTML">
+                <label htmlFor="test">Name</label>
+                <br />
+                <input name="name" id="name" autoComplete="off" />
+                <button type="submit">Submit</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    }
+}
+
+
+templ Text(name string) {
+	<div>Hello {name}, from the server</div>
+}
