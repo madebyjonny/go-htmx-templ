@@ -12,5 +12,7 @@ This is my first ever Go project so I imagine there is a few things I can clean 
 - run `go run main.go`
 
 ## Creating new components
-you will need to run `./cmd/templ generate` to create the corrosponding go files 
+you will need to run `./cmd/templ generate` to create the corrosponding go files. 
+(I am using this on an m1 Mac, you will need a different binary if your OS differs) 
+
 
